@@ -5,7 +5,7 @@
 <h1>My first PHP page using Docker image</h1>
 
 <?php
-echo "Hello World! Hello Kubernetes";
+echo "Hello World! Hello Kubernetes! Hello Flux!";
 ?> 
 
 </body>
