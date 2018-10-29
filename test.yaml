@@ -5,7 +5,7 @@ metadata:
   labels:
     app: web
   annotations:
-    flux.weave.works/tag.<containername>: glob:hello-world*
+    flux.weave.works/tag.front-end: glob:hello-world*
     flux.weave.works/automated: 'true'
 spec:
   containers:
