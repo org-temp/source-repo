@@ -2,10 +2,10 @@
 <html>
 <body>
 
-<h1>My first PHP page using Docker image</h1>
+<h1>My first PHP page using Docker image and FLUX</h1>
 
 <?php
-echo "Hello World! Hello Kubernetes!";
+echo "Hello World! Hello Kubernetes! Please Work !!!";
 ?> 
 
 </body>
