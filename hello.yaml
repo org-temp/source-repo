@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-world
+  labels:
+    app: web
+  annotations:
+    flux.weave.works/tag.front-end: glob:hello-world*
+    flux.weave.works/automated: 'true'
+spec:
+  containers:
+    - name: front-end
+      image: mukeshpanigrahi/hello-world-repo
+      ports:
+        - containerPort: 80
