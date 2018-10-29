@@ -1,15 +1,24 @@
-apiVersion: v1
-kind: Pod
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name: hello-world
+  name: flux-deploy
   labels:
     app: web
   annotations:
-    flux.weave.works/tag.front-end: glob:hello-world*
+    flux.weave.works/tag.hello-world: glob:hello-world*
     flux.weave.works/automated: 'true'
 spec:
-  containers:
-    - name: front-end
-      image: mukeshpanigrahi/hello-world-repo
-      ports:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: hello-world
+        image: mukeshpanigrahi/hello-world-repo
+        ports:
         - containerPort: 80
