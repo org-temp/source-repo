@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: mukesh-panigrahi/hello-world-repo
+        image: mukeshpanigrahi/hello-world-repo
         ports:
         - containerPort: 80
