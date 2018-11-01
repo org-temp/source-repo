@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER Mukesh Panigrahi <mukesh.panigrahi@searce.com>
  
 #Update Repository
-RUN apt-get update -y && rm -rf /var/lib/apt/lists/*
+RUN apt-get update -y
  
 #Install Apache
 RUN apt-get install -y apache2
