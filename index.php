@@ -1,7 +1,7 @@
 <?php
 $servername = "10.27.251.151";
-$username = "varMyDBUser";
-$password = "varMyDBPass";
+$username = "dmFyTXlEQlVzZXI=";
+$password = "dmFyTXlEQlBhc3M=";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password);
