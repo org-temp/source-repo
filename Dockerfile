@@ -6,7 +6,7 @@ FROM php:7.0-apache
 # clean up
 RUN apt-get update \
   && apt-get install -y mysql-client curl \
-  && docker-php-ext-install pdo_mysql php-mysql \
+  && docker-php-ext-install pdo_mysql \
   && apt-get clean \
   && rm -rf /var/cache/apt/archives
 
