@@ -6,13 +6,9 @@ FROM php:7.0-apache
 # clean up
 RUN apt-get update \
   && apt-get install -y mysql-client curl \
-  && docker-php-ext-install pdo_mysql \
+  && docker-php-ext-install pdo_mysql php7.0-mysql \
   && apt-get clean \
   && rm -rf /var/cache/apt/archives
-
-RUN apt-get install -y \
-  && php7.0-cli php7.0-common php7.0-mbstring php7.0-intl \
-  && php7.0-mysql
 
 # take the contents of the local html/ folder, and copy to /var/www/html/ inside the container
 # this is the expected web root of the default website for this server, so put your index.php here
