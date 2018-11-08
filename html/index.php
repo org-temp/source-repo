@@ -4,7 +4,7 @@ $username = getenv('MYSQL_USER');
 $password = getenv('MYSQL_PASSWORD');
 // Create connection
 
-$link = mysqli_connect($mysql_host, $username, $password, "sakila");
+$link = new mysqli($mysql_host, $username, $password, "sakila");
 
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
