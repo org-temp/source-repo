@@ -9,6 +9,8 @@ RUN apt-get update \
   && docker-php-ext-install pdo_mysql \
   && apt-get clean \
   && rm -rf /var/cache/apt/archives
+  
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 
 # take the contents of the local html/ folder, and copy to /var/www/html/ inside the container
 # this is the expected web root of the default website for this server, so put your index.php here
