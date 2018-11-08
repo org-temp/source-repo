@@ -11,8 +11,8 @@ RUN apt-get update \
   && rm -rf /var/cache/apt/archives
 
 RUN apt-get install -y \
-  && libapache2-mod-php7.0 php7.0-cli php7.0-common php7.0-mbstring php7.0-gd php7.0-intl \
-  && php7.0-xml php7.0-mysql php7.0-mcrypt
+  && php7.0-cli php7.0-common php7.0-mbstring php7.0-intl \
+  && php7.0-mysql
 
 # take the contents of the local html/ folder, and copy to /var/www/html/ inside the container
 # this is the expected web root of the default website for this server, so put your index.php here
