@@ -26,4 +26,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 echo "DB Connected successfully 1234!!!!";
+
+$result = $dbh->query("show tables");
+echo $result;
+
 ?>
