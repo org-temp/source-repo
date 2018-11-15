@@ -25,5 +25,5 @@ $conn = new mysqli($mysql_host, $username, $password);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-echo "DB Connected successfully";
+echo "DB Connected successfully 1234!!!!";
 ?>
