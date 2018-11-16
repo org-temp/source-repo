@@ -15,9 +15,9 @@ if (!$link) {
     exit;
 }
 
-echo "Success: A proper connection to MySQL was made! The sakila database is accessible." . PHP_EOL;
+echo "Success: A proper connection to MySQL was made!! The sakila database is accessible." . PHP_EOL;
 
-mysqli_close($link);
+// mysqli_close($link);
 
 // Show tables from Sakila Database
 
