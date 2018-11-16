@@ -26,7 +26,7 @@ $mysqli = new mysqli($mysql_host, $username, $password, $dbname);
 if ($mysqli->connect_errno) {
     // The connection failed. What do you want to do? 
     // Let's try this:
-    echo "Sorry, this website is experiencing problems.";
+    echo "Sorrrry, this website is experiencing problems.";
 
     // Something you should not do on a public site, but this example will show you
     // anyways, is print out MySQL error related information -- you might log this
@@ -42,7 +42,7 @@ if ($mysqli->connect_errno) {
 $sql = "SELECT actor_id, first_name, last_name FROM actor WHERE actor_id = $aid";
 if (!$result = $mysqli->query($sql)) {
     // Oh no! The query failed. 
-    echo "Sorry, the website is experiencing problems.";
+    echo "Sorry, the website is having issues.";
 
     // Again, do not do this on a public site, but we'll show you how
     // to get the error information
