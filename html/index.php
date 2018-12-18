@@ -5,7 +5,7 @@
 <h1>My first PHP page using Docker image and FLUX</h1>
 
 <?php
-echo "Hello World! Hello Kubernetes! Hello prow! I hope it Works !!! PR 3";
+echo "Hello Kubernetes! Hello prow! I hope it Works !!! PR 3";
 ?> 
 
 </body>
