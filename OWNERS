@@ -1,11 +1,5 @@
-# See the OWNERS docs at https://go.k8s.io/owners
 
-filters:
-  ".*":
-    approvers:
-      - sekhar4233
-      - pratikmm
-      - Pratik-Thakkar
-    labels:
-      - area/prow
-# "(plugins|config)\\.yaml$":
+approvers:
+  - sekhar4233
+  - pratikmm
+  - Pratik-Thakkar
