@@ -6,7 +6,7 @@
 
 <?php
 
-echo "six !!!";
+echo "seven !!!";
 
 ?> 
 
