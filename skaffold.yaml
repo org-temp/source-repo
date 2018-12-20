@@ -11,7 +11,7 @@ build:
     # localDir: {}
      gcsBucket: mukesh-test-bucket
     pullSecret: /secrets/gcs/service-account.json
-    namespace: build-helloworld
+   # namespace: build-helloworld
     cache: {}
 
 deploy:
