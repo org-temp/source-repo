@@ -10,7 +10,7 @@ build:
     buildContext:
     # localDir: {}
      gcsBucket: mukesh-test-bucket
-    pullSecret: /workspace/kaniko-key.json
+    pullSecret: /secrets/gcs/service-account.json
     namespace: build-helloworld
     cache: {}
 
