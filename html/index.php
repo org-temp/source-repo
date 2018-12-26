@@ -2,10 +2,10 @@
 <html>
 <body>
 
-<h1>My first PHP page using Docker image and FLUX</h1>
+<h1>My first PHP page using Skaffold Docker image and FLUX</h1>
 
 <?php
-echo "Hello Kubernetes! Hello prow! I hope it Works !!! PR 6!! postjob-check";
+echo "Hello Kubernetes! Hello prow! Yup!! it Works !!! PR 1!! postjob-check";
 ?> 
 
 </body>
