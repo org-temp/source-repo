@@ -18,4 +18,4 @@ spec:
       - name: kustomize-test
         image: gcr.io/searce-sandbox/abc
         ports:
-        - containerPort: 80
+         containerPort: 80
