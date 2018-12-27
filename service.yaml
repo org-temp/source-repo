@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: kustomize-service
+spec:
+  selector:
+    app: kustomize-test
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
