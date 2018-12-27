@@ -6,7 +6,7 @@
 
 <?php
 
-echo "Prow testing, All tests !!!";
+echo "Prow testing, Secret Git testing !!!";
 
 ?> 
 
