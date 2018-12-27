@@ -6,7 +6,7 @@
 
 <?php
 
-echo "Prow testing, Ingress Testing v3 !!!";
+echo "Prow testing, All tests !!!";
 
 ?> 
 
