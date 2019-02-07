@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>This is a PHP page using Skaffold Docker image and FLUX 1.1</h1>
+<h1>This is a PHP page using Skaffold Docker image and FLUX 1.2</h1>
 
 <?php
 echo "Hello Kubernetes! PR 123456789!! postjob-check done.";
